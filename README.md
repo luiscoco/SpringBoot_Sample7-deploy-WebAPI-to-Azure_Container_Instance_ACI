@@ -112,13 +112,13 @@ docker push myregistryluiscoco1974.azurecr.io/springbootapi:latest
 ```
 az container create --resource-group myRG ^
   --name mycontainerinstance ^
-  --image mywebapicontainer.azurecr.io/mywebapicontainer:v1 ^
+  --image myregistryluiscoco1974.azurecr.io/springbootapi:latest ^
   --cpu 1 ^
   --memory 1.5 ^
-  --registry-login-server mywebapicontainer.azurecr.io ^
-  --registry-username mywebapicontainer ^
-  --registry-password tk5N+2tBFnNxImB0ByTt58Nt+HLvCwLWMA8bNn1lwY+ACRAeOtn/ ^
-  --dns-name-label mywebapidns7788 ^
+  --registry-login-server myregistryluiscoco1974.azurecr.io ^
+  --registry-username myregistryluiscoco1974 ^
+  --registry-password m+QYxC4Y6xCJWTLI/huNzIjOvhM65xlVBWzihklezR+ACRDK1LbO ^
+  --dns-name-label myspringbootwebapidns ^
   --ports 80 ^
   --location westeurope
 ```
