@@ -15,5 +15,10 @@
 ## 5. We push the Docker image to the Azure ACR
   
 
-## 6. We create the Azure Container Instance (ACI) and we deploy it
+## 6. We create the Azure Container Instance(ACI) and we deploy it
+
+
+
+## 7. In Azure Portal we navigate to Azure ACI
+
 
