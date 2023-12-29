@@ -119,7 +119,7 @@ az container create --resource-group myRG ^
   --registry-username myregistryluiscoco1974 ^
   --registry-password m+QYxC4Y6xCJWTLI/huNzIjOvhM65xlVBWzihklezR+ACRDK1LbO ^
   --dns-name-label myspringbootwebapidns ^
-  --ports 80 ^
+  --ports 8080 ^
   --location westeurope
 ```
 
