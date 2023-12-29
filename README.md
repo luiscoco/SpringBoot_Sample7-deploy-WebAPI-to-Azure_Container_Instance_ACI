@@ -91,6 +91,8 @@ PS C:\SpringBoot WebAPI> az acr credential show --name myregistryluiscoco1974
 
 Docker Login: Use the docker login command with your ACR's login server URL and the credentials you just retrieved.
 
+![image](https://github.com/luiscoco/SpringBoot_Sample7-deploy-WebAPI-to-Azure_Container_Instance_ACI/assets/32194879/2508b939-2cf2-41d1-8873-44548a7d8df8)
+
 ```
 docker login myregistryluiscoco1974.azurecr.io -u <username> -p <password>
 ```
