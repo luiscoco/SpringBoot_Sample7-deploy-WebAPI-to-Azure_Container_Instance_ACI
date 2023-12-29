@@ -112,7 +112,7 @@ docker push myregistryluiscoco1974.azurecr.io/springbootapi:latest
 ```
 az container create --resource-group myRG ^
   --name mycontainerinstance ^
-  --image myregistryluiscoco1974.azurecr.io/springbootapi:latest ^
+  --image myregistryluiscoco1974.azurecr.io/Aspringbootapi:latest ^
   --cpu 1 ^
   --memory 1.5 ^
   --registry-login-server myregistryluiscoco1974.azurecr.io ^
@@ -125,4 +125,15 @@ az container create --resource-group myRG ^
 
 ## 7. In Azure Portal verify the Azure ACI
 
+Visit in the Azure portal the Azure Container Instance ACI and copy the DNS: myspringbootwebapidns.westeurope.azurecontainer.io
+
+![image](https://github.com/luiscoco/SpringBoot_Sample7-deploy-WebAPI-to-Azure_Container_Instance_ACI/assets/32194879/7a8e4287-9c9d-43f4-a1d9-c012b8fc3639)
+
+Visit the application endpoint: http://myspringbootwebapidns.westeurope.azurecontainer.io:8080/hello
+
+![image](https://github.com/luiscoco/SpringBoot_Sample7-deploy-WebAPI-to-Azure_Container_Instance_ACI/assets/32194879/8e39054f-5273-4bec-adb7-8dab87bf763c)
+
+Also visit the application actuator health endpoint: http://myspringbootwebapidns.westeurope.azurecontainer.io:8080/actuator/health
+
+![image](https://github.com/luiscoco/SpringBoot_Sample7-deploy-WebAPI-to-Azure_Container_Instance_ACI/assets/32194879/5688ae4a-4a0d-45fc-ac8a-1816191bbf84)
 
